@@ -1,0 +1,154 @@
+/** ===========================
+ *  Global styles.
+ *  ===========================
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f6f6ff;
+}
+
+h1,
+h3 {
+    display: inline-block;
+
+    margin: 0;
+
+    color: #353431;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
+/** ===========================
+ *  Global styles end.
+ *  ===========================
+*/
+
+/** ===========================
+ *  Accordion.
+ *  ===========================
+*/
+
+.accordion {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.accordion__container {
+    margin: 0 auto;
+
+    max-width: 600px;
+}
+
+.accordion__header {
+    margin-bottom: 25px;
+}
+
+.tab {
+    overflow: hidden;
+
+    margin-bottom: 15px;
+    height: 70px;
+
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab_open .close__button {
+    transform: rotate(45deg);
+
+    color: white;
+}
+.tab_open .tab__number {
+    display: none;
+}
+.tab_open .tab__title {
+    padding: 5px;
+    background-color: white;
+}
+
+.tab__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+}
+
+.tab__number {
+    padding: 10px;
+    margin-right: 5px;
+
+    border-radius: 10px;
+    color: white;
+}
+
+.color-1 {
+    background-color: #5fdd4f;
+}
+.color-2 {
+    background-color: #12d3fc;
+}
+.color-3 {
+    background-color: #c448b7;
+}
+.color-4 {
+    background-color: #cd8c17;
+}
+.color-5 {
+  background-color: #252525;
+}
+.color-6 {
+  background-color: #F64A8A;
+}
+.color-7 {
+  background-color: #6D6552;
+}
+.color-8 {
+  background-color: #1E5945;
+}
+
+.close__button {
+    font-size: 2rem;
+    color: #dfdfe8;
+    transition: all 0.3s;
+}
+
+.tab__content {
+    position: relative;
+    z-index: 1;
+
+    padding: 15px;
+
+    color: white;
+}
+
+.tab__number-2 {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    z-index: -1;
+
+    font-size: 7rem;
+    color: white;
+    opacity: 0.3;
+}
+
+/** ===========================
+ *  Accordion end.
+ *  ===========================
+*/
