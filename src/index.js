@@ -24,7 +24,8 @@ const accordion = (tabSelector, tabContentSelector, tabOpenSelector) => {
                 black: '#252525',
                 france: '#F64A8A',
                 gray: '#6D6552',
-                bruze: '#1E5945'
+                bruze: '#1E5945',
+                pale: '#B03F35'
             } 
 
             const setColor = color => {
@@ -55,8 +56,12 @@ const accordion = (tabSelector, tabContentSelector, tabOpenSelector) => {
                     break 
                     
                 case 7:
-                setColor(tabsColors.bruze)
-                    break    
+                    setColor(tabsColors.bruze)
+                    break
+                    
+                case 8:
+                    setColor(tabsColors.pale)
+                    break     
                 
 
                 default:
