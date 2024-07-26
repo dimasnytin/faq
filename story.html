@@ -1,57 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
 
 <head>
-  <title>Вопрос - ответ</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Slider in HTML CSS and JavaScript | CodingNepal</title>
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="src/styles.css" />
+  <script src="src/main.js" defer></script>
 </head>
 
 <body>
-  <div id="app">
-    <div class="accordion">
-      <div class="accordion__container">
-        <div class="x5yr21d x1uhb9sk xh8yej3"><video class="x1lliihq x5yr21d xh8yej3" playsinline="" preload="none"
-            src="blob:https://www.instagram.com/c68cb345-c5f2-4854-bac2-a1a9eb65e576" style="display: block;"></video>
-          <div data-instancekey="id-vpuid-faf7aec89340f7465">
-            <div class="x5yr21d x10l6tqk x13vifvy xh8yej3" data-visualcompletion="ignore">
-              <div class="x1ey2m1c x9f619 xds687c x10l6tqk x17qophe x13vifvy x1ypdohk" role="presentation"></div>
-              <div
-                class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x10l6tqk x1ey2m1c xds687c x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
-                <button aria-label="Включить/выключить звук" class=" _acan _acao _acas _aj1- _ap30" type="button">
-                  <div
-                    class="x9f619 x78zum5 x14yjl9h xudhj91 x18nykt9 xww2gxu x1yztbdb xktsk01 x1y1aw1k x1sxyh0 xwib8y2 xurb0ha x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1 x1wunsqr">
-                    <svg aria-label="Звук выключен" class="x1lliihq x1n2onr6 x9bdzbf" fill="currentColor" height="12" role="img"
-                      viewBox="0 0 48 48" width="12">
-                      <title>Звук выключен</title>
-                      <path clip-rule="evenodd"
-                        d="M1.5 13.3c-.8 0-1.5.7-1.5 1.5v18.4c0 .8.7 1.5 1.5 1.5h8.7l12.9 12.9c.9.9 2.5.3 2.5-1v-9.8c0-.4-.2-.8-.4-1.1l-22-22c-.3-.3-.7-.4-1.1-.4h-.6zm46.8 31.4-5.5-5.5C44.9 36.6 48 31.4 48 24c0-11.4-7.2-17.4-7.2-17.4-.6-.6-1.6-.6-2.2 0L37.2 8c-.6.6-.6 1.6 0 2.2 0 0 5.7 5 5.7 13.8 0 5.4-2.1 9.3-3.8 11.6L35.5 32c1.1-1.7 2.3-4.4 2.3-8 0-6.8-4.1-10.3-4.1-10.3-.6-.6-1.6-.6-2.2 0l-1.4 1.4c-.6.6-.6 1.6 0 2.2 0 0 2.6 2 2.6 6.7 0 1.8-.4 3.2-.9 4.3L25.5 22V1.4c0-1.3-1.6-1.9-2.5-1L13.5 10 3.3-.3c-.6-.6-1.5-.6-2.1 0L-.2 1.1c-.6.6-.6 1.5 0 2.1L4 7.6l26.8 26.8 13.9 13.9c.6.6 1.5.6 2.1 0l1.4-1.4c.7-.6.7-1.6.1-2.2z"
-                        fill-rule="evenodd"></path>
-                    </svg></div>
-                </button></div>
-              <div
-                class="x1ym3s0w x107yiy2 xv8uw2v x1tfwpuw x2g32xy x972fbf xcfux6l x1qhh985 xm0m39n x1ypdohk x14vqqas xq8finb xod5an3 x16n37ib x13dflua x19991ni x1ey2m1c x10l6tqk x17qophe x1hc1fzr">
-                <button class=" _acan _acao _acas _aj1- _ap30" type="button">
-                  <div
-                    class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1sxyh0 xurb0ha xwib8y2 x1y1aw1k x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s x1q0g3np xqjyukv x6s0dn4 x1oa3qoh xl56j7k">
-                    <svg aria-label="Метки" class="x1lliihq x1n2onr6 x9bdzbf" fill="currentColor" height="12" role="img"
-                      viewBox="0 0 24 24" width="12">
-                      <title>Метки</title>
-                      <path
-                        d="M21.334 23H2.666a1 1 0 0 1-1-1v-1.354a6.279 6.279 0 0 1 6.272-6.272h8.124a6.279 6.279 0 0 1 6.271 6.271V22a1 1 0 0 1-1 1ZM12 13.269a6 6 0 1 1 6-6 6.007 6.007 0 0 1-6 6Z">
-                      </path>
-                    </svg></div>
-                </button></div>
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <div class="slider-wrapper">
+      <button id="prev-slide" class="slide-button material-symbols-rounded">
+        chevron_left
+      </button>
+      <ul class="image-list">
+        <img class="image-item" src="src/images/1.jpg" alt="img-1" />
+        <img class="image-item" src="src/images/2.jpg" alt="img-2" />
+        <img class="image-item" src="src/images/3.jpg" alt="img-3" />
+        <img class="image-item" src="src/images/4.jpg" alt="img-4" />
+        <img class="image-item" src="src/images/5.jpg" alt="img-5" />
+        
+      </ul>
+      <button id="next-slide" class="slide-button material-symbols-rounded">
+        chevron_right
+      </button>
+    </div>
+    <div class="slider-scrollbar">
+      <div class="scrollbar-track">
+        <div class="scrollbar-thumb"></div>
       </div>
     </div>
   </div>
-
-  <script src="src/index.js"></script>
 </body>
 
 </html>
